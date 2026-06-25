@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://cu15s8qb5qnpo"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_60o7v"]
+load_path = "res://.godot/imported/ChatGPT Image 22 jun 2026, 18_50_20.png-ed38cea07ad3534cf423f53c44c60d8a.ctex"
+
+[node name="MenuPrincipal" type="Control" unique_id=336338152]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1725287573]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_60o7v")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1745621336]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 507.0
+offset_right = 273.0
+offset_bottom = 564.0
+theme_override_font_sizes/font_size = 35
+text = "JUGAR"
+
+[node name="Button" type="Button" parent="Button" unique_id=439049323]
+layout_mode = 0
+offset_left = 745.0
+offset_top = 5.0
+offset_right = 922.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 35
+text = "CREDITOS"
+
+[node name="Button2" type="Button" parent="Button" unique_id=244260414]
+layout_mode = 0
+offset_left = 742.0
+offset_top = -102.0
+offset_right = 919.0
+offset_bottom = -45.0
+theme_override_font_sizes/font_size = 35
+text = "SALIR"
