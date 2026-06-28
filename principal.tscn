@@ -330,13 +330,14 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n873l"]
 size = Vector2(151, 257.25)
 
-[node name="Node2D" type="Node2D" unique_id=1986834658]
+[node name="personajeprincipal" type="Node2D" unique_id=1986834658]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=57363309]
+position = Vector2(2, 0)
 script = ExtResource("3_emcp4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1139138026]
-position = Vector2(108, 109)
+position = Vector2(108, 110)
 sprite_frames = SubResource("SpriteFrames_afqqb")
 animation = &"subir"
 speed_scale = 2.0
